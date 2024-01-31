@@ -1,0 +1,295 @@
+body {
+    /* font family */
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
+  .container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* кнопка */
+.btn {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+text-align: center;
+width: 130.435px;
+border-radius: 8px;
+background-color: #ff0000;
+color: #000000;
+}
+.btn:hover {
+  background-color: #000000;
+  color: #ff0000;
+}
+/* logo */
+.logo img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+
+}
+
+.logo-style {
+  color: var(--header-logo);
+}
+
+.logo-style:hover,
+.logo-style:focus {
+  color: var(--accent-color);
+}
+/* header */
+.header {
+  background-color: #ffffff;
+  /* padding: 20px; */
+  /* text-align: right; */
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header >.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+ .header-list {
+  display: flex;
+  /* padding-left: 0px;
+  margin-left: 93px; */
+
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+  gap: 50px;
+}
+.header-item {
+  /* margin-left: 50px; */
+}
+.header-link {
+  color: var(--title-color);
+  font-size: 15px;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+/* main */
+.hero-title {
+  margin-right: auto;
+    margin-left: auto;
+    color: #ff2727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+  
+    width: 650px;
+  
+    margin-bottom: 60px;
+
+}
+/* херо */
+.hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(123, 124, 143, 0.4)),url(../images/vargooffice.jpg);
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: var(--bg-color);
+  margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 1500px;
+}
+.text-hero {
+  margin-right: auto;
+    color: #fefefe;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+  
+    width: 50px;
+  
+    margin-bottom: 80px;
+}
+
+
+
+/* товар */
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.advantages-list > .item{
+  flex-basis: calc((100% - 90px) / 4)
+}
+.advantages-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.advantages {
+  display: flex;
+}
+
+
+.advantages img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 5px;
+}
+
+/* офіс */
+.office {
+display: flex;
+}
+.office-title {
+  color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.office img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 5px;
+
+}
+.office-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.office-list > .item {
+  flex-basis: calc((100% - 90px) 4);
+}
+
+.office video {
+  width: 500px;
+  height: auto;
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+/* футер */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--bg-color);
+}
+.footer-name {
+  width: 10px;
+  height: 60px;
+  color: #000000;
+}
+.logo-footer img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+.footer-list {
+  color: var(--footer-list);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+
+}
+.footer-ct {
+  color: var(--footer-ct);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.footer-address {
+ color: #000000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+/* Світильники на сонячній батареї */
+.container {
+  display: flex;
+}
+
+.solar-battery-name {
+  color: var(--title-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+
+}
